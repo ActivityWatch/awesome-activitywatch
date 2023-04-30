@@ -23,12 +23,20 @@ This list is just getting started. *Do you see anything missing? Make a pull req
  - [Getting Started Guide](https://docs.activitywatch.net/en/latest/getting-started.html)
  - [FAQ](https://docs.activitywatch.net/en/latest/faq.html)
 
-# Server implementations
+# Server Implementations
 
 ActivityWatch has a modular architecture that includes a server component for storing and analyzing the collected data.
 
  - [aw-server](https://github.com/ActivityWatch/aw-server), the official server implementation written in Python
  - [aw-server-rust](https://github.com/ActivityWatch/aw-server-rust), an alternative server implementation written in Rust for improved performance
+
+# Client Libraries
+
+The ActivityWatch ecosystem provides client libraries to help developers interact with the ActivityWatch server API and create custom watchers, integrations, extensions, or applications. Here are the official client libraries:
+
+ - [aw-client](https://github.com/ActivityWatch/aw-client), a client library written in Python
+ - [aw-client-js](https://github.com/ActivityWatch/aw-client-js), a client library written in JavaScript/TypeScript
+ - [aw-client-rust](https://github.com/ActivityWatch/aw-server-rust/tree/master/aw-client-rust), a client library written in Rust
 
 # Alternative UIs
 
