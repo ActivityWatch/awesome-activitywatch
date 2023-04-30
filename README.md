@@ -1,4 +1,4 @@
-Awesome ActivityWatch
+Awesome ActivityWatch [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 =====================
 
 A collections of awesome links to resources relating to ActivityWatch, the free and open-source automated time-tracker.
@@ -78,6 +78,7 @@ Thank you for supporting ActivityWatch and helping it stay afloat financially as
 
 # Other links
 
+ - [Awesome Quantified Self](https://github.com/woop/awesome-quantified-self), a list of awesome quantified self resources
  - [Superuser Labs](https://superuserlabs.org/), company owned and run by founder Erik Bjäreholt for consulting and other ActivityWatch-related services (among other things).
    - [LinkedIn](https://www.linkedin.com/company/superuser-labs/)
    - [Twitter](https://twitter.com/SuperusrLabs)
