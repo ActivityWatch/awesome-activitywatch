@@ -57,11 +57,20 @@ Alternative ways to run ActivityWatch, or simply view the data using another int
 For more, see the [Watchers page](https://docs.activitywatch.net/en/latest/watchers.html) in the documentation.
 <!-- TODO: Move/mirror list here? -->
 
+# Misc
+
+ - [activitywatch-plasmoid](https://github.com/NicoWeio/activitywatch-plasmoid), a KDE Plasma widget for ActivityWatch
+
 # Videos
 
  - [ActivityWatch - Application time tracking done well](https://www.youtube.com/watch?v=FIP3Qvja7RM) (2023-2-3)
  - [ActivityWatch: Save Time With Helpful Telemetry](https://www.youtube.com/watch?v=ZmYNc-dXm2s) by @BrodieRobertson (2021-6-13)
  - [ActivityWatch Development Visualization 2014-2020 (with Gource)](https://www.youtube.com/watch?v=zjIn43lZq3U) by @ErikBjare (2020-12-20)
+
+# Custom dashboards
+
+ - Metabase dashboard by @SqrtMinusTwo: https://twitter.com/ActivityWatchIt/status/1522126015082151936
+ - Grafana + PrometheusDB + InfluxDB dashboard by @KShivendu: https://twitter.com/KShivendu_/status/1697483679495557228
 
 # Donations
 
