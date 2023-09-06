@@ -5,7 +5,7 @@ A collections of awesome links to resources relating to ActivityWatch, the free 
 
 **Please star :star: and share this repo! :loudspeaker:**
 
-This list is just getting started. *Do you see anything missing? Make a pull request! :pencil2:*
+This list is just getting started. *Do you see anything missing? [Make a pull request!](https://github.com/ActivityWatch/awesome-activitywatch/edit/master/README.md) :pencil2:*
 
 # Official links :link:
 
