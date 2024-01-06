@@ -46,6 +46,7 @@ Alternative ways to run ActivityWatch, or simply view the data using another int
  - [Workflow](https://flathub.org/apps/com.gitlab.cunidev.Workflow), basic screentime application using GTK
  - [Codewatch](https://github.com/jca41/codewatch)
  - [activitywatch-plasmoid](https://github.com/NicoWeio/activitywatch-plasmoid), a KDE Plasma widget for ActivityWatch
+ - [yet-another-UI-for-AW](https://github.com/K-Kuyama/yet-another-UI-for-AW/), a native UI for ActivityWatch with Japanese localization ([announcement forum post](https://forum.activitywatch.net/t/another-gui-client-for-aw/2748))
 
 # Watchers
 
