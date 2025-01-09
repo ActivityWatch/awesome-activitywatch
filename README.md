@@ -59,6 +59,11 @@ Alternative ways to run ActivityWatch, or simply view the data using another int
 For more, see the [Watchers page](https://docs.activitywatch.net/en/latest/watchers.html) in the documentation.
 <!-- TODO: Move/mirror list here? -->
 
+# Sync
+
+ - [aw-sync](https://github.com/ActivityWatch/aw-server-rust/tree/master/aw-sync), the official sync-with-folder/bring-your-own-sync solution for ActivityWatch
+ - [aw-sync-suite](https://github.com/phrp720/aw-sync-suite), a centralized sync solution backed by Prometheus and visualized with Grafana, by @phrp720
+
 # Videos :tv:
 
 - [ActivityWatch - Application time tracking done well](https://www.youtube.com/watch?v=FIP3Qvja7RM) (2023-2-3)
