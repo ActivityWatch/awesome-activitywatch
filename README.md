@@ -64,7 +64,7 @@ For more, see the [Watchers page](https://docs.activitywatch.net/en/latest/watch
 
  - [aw-sync](https://github.com/ActivityWatch/aw-server-rust/tree/master/aw-sync), the official sync-with-folder/bring-your-own-sync solution for ActivityWatch
  - [aw-sync-suite](https://github.com/phrp720/aw-sync-suite), a centralized sync solution backed by Prometheus and visualized with Grafana, by @phrp720
- - [activitywatch-exporter](https://github.com/rare-magma/activitywatch-exporter), CLI tool that uploads the ActivityWatch data from the aw-server API to influxdb on a daily basis
+ - [activitywatch-exporter](https://github.com/rare-magma/activitywatch-exporter), CLI tool that uploads the ActivityWatch data from the aw-server API to InfluxDB on a daily basis
 
 # Videos :tv:
 
