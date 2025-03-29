@@ -66,6 +66,10 @@ For more, see the [Watchers page](https://docs.activitywatch.net/en/latest/watch
  - [aw-sync-suite](https://github.com/phrp720/aw-sync-suite), a centralized sync solution backed by Prometheus and visualized with Grafana, by @phrp720
  - [activitywatch-exporter](https://github.com/rare-magma/activitywatch-exporter), CLI tool that uploads the ActivityWatch data from the aw-server API to InfluxDB on a daily basis
 
+# AI/LLM Integrations 🤖
+
+- [activitywatch-mcp-server](https://github.com/8bitgentleman/activitywatch-mcp-server) - A Model Context Protocol (MCP) server that connects to ActivityWatch, allowing LLMs like Claude to interact with your time tracking data
+
 # Videos :tv:
 
 - [ActivityWatch - Application time tracking done well](https://www.youtube.com/watch?v=FIP3Qvja7RM) (2023-2-3)
