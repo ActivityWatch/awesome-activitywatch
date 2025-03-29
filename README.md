@@ -17,6 +17,23 @@ This list is just getting started. *Do you see anything missing? [Make a pull re
 - [LinkedIn](https://www.linkedin.com/company/activitywatch/)
 - [r/ActivityWatch](https://www.reddit.com/r/ActivityWatch/) (mostly inactive), subreddit for ActivityWatch
 
+# Applications
+
+The main ActivityWatch application and alternative implementations:
+
+- **ActivityWatch** ([releases](https://github.com/ActivityWatch/activitywatch/releases)) - The official distribution, includes:
+  - aw-qt (tray application)
+  - aw-server & aw-server-rust (storage and API)
+  - aw-watcher-window (window tracking)
+  - aw-watcher-afk (idle detection)
+  - aw-watcher-input (keyboard/mouse usage)
+  - aw-sync (data syncing)
+  - aw-notify (notifications)
+- [aw-tauri](https://github.com/ActivityWatch/aw-tauri) (WIP), experimental/alternative distribution of ActivityWatch using Tauri
+- [Workflow](https://flathub.org/apps/com.gitlab.cunidev.Workflow), basic screentime application using GTK
+- [Codewatch](https://github.com/jca41/codewatch), desktop client for ActivityWatch focused on software development and productivity.
+- [yet-another-UI-for-AW](https://github.com/K-Kuyama/yet-another-UI-for-AW/), a native UI for ActivityWatch with Japanese localization ([announcement forum post](https://forum.activitywatch.net/t/another-gui-client-for-aw/2748))
+
 # Documentation :books:
 
 - [Official Documentation](https://docs.activitywatch.net)
@@ -38,27 +55,68 @@ The ActivityWatch ecosystem provides client libraries to help developers interac
  - [aw-client-js](https://github.com/ActivityWatch/aw-client-js), a client library written in JavaScript/TypeScript
  - [aw-client-rust](https://github.com/ActivityWatch/aw-server-rust/tree/master/aw-client-rust), a client library written in Rust
 
-# Alternative UIs
+# Desktop Widgets :desktop_computer:
 
-Alternative ways to run ActivityWatch, or simply view the data using another interface.
+- [activitywatch-plasmoid](https://github.com/NicoWeio/activitywatch-plasmoid), a KDE Plasma widget for ActivityWatch
+- [activitywatch-status-gnome-shell](https://extensions.gnome.org/extension/7774/activitywatch-status/), GNOME Shell extension that shows the total time spent today ([source](https://codeberg.org/cweiske/activitywatch-status-gnome-shell))
 
- - [aw-tauri](https://github.com/ActivityWatch/aw-tauri) (WIP), experimental/alternative distribution of ActivityWatch using Tauri
- - [Workflow](https://flathub.org/apps/com.gitlab.cunidev.Workflow), basic screentime application using GTK
- - [Codewatch](https://github.com/jca41/codewatch), desktop client for ActivityWatch focused on software development and productivity.
- - [activitywatch-plasmoid](https://github.com/NicoWeio/activitywatch-plasmoid), a KDE Plasma widget for ActivityWatch
- - [yet-another-UI-for-AW](https://github.com/K-Kuyama/yet-another-UI-for-AW/), a native UI for ActivityWatch with Japanese localization ([announcement forum post](https://forum.activitywatch.net/t/another-gui-client-for-aw/2748))
- - [activitywatch-status-gnome-shell](https://extensions.gnome.org/extension/7774/activitywatch-status/), GNOME Shell extension that shows the total time spent today ([source](https://codeberg.org/cweiske/activitywatch-status-gnome-shell))
+# Watchers :watch:
 
-# Watchers
+ActivityWatch comes with two watchers enabled by default:
 
- - [aw-watcher-window](https://github.com/ActivityWatch/aw-watcher-window) (default), window and application usage tracker
- - [aw-watcher-afk](https://github.com/ActivityWatch/aw-watcher-afk) (default), tracks if the user is AFK or not
- - [aw-watcher-web](https://github.com/ActivityWatch/aw-watcher-web), browser extension for tracking web activity
- - [aw-watcher-vim](https://github.com/ActivityWatch/aw-watcher-vim), tracks time spent in Vim editor
- - [aw-watcher-vscode](https://github.com/ActivityWatch/aw-watcher-vscode), tracks time spent in Visual Studio Code
+- [aw-watcher-afk](https://github.com/ActivityWatch/aw-watcher-afk) - Watches for mouse & keyboard activity to detect if the user is active
+- [aw-watcher-window](https://github.com/ActivityWatch/aw-watcher-window) - Watches the active window and its metadata
 
-For more, see the [Watchers page](https://docs.activitywatch.net/en/latest/watchers.html) in the documentation.
-<!-- TODO: Move/mirror list here? -->
+## Window Watchers :desktop_computer:
+
+- [aw-watcher-window](https://github.com/ActivityWatch/aw-watcher-window) - The official window watcher for Windows, macOS, and Linux (X11)
+- [aw-watcher-window-wayland](https://github.com/ActivityWatch/aw-watcher-window-wayland) - Window watcher for Wayland by @johan-bjareholt
+- [awatcher](https://github.com/2e3s/awatcher) - A compiled watcher for X11 and Wayland by @2e3s
+
+## Browser Watchers :globe_with_meridians:
+
+- [aw-watcher-web](https://github.com/ActivityWatch/aw-watcher-web) - Official browser extension for Chrome, Edge, and Firefox
+
+## Editor Watchers :pencil2:
+
+- [aw-watcher-vim](https://github.com/ActivityWatch/aw-watcher-vim) - Vim extension by @johan-bjareholt and @ahnlabb
+- [aw-watcher-vscode](https://github.com/ActivityWatch/aw-watcher-vscode) - Visual Studio Code extension by @Otto-AA
+- [activity-watch-mode](https://github.com/pauldub/activity-watch-mode) - Emacs mode by @pauldub
+- [aw-watcher-jetbrains](https://github.com/OlivierMary/aw-watcher-jetbrains) - For all JetBrains IDEs by @OlivierMary ([JetBrains Marketplace](https://plugins.jetbrains.com/plugin/11361-activity-watcher))
+- [ActivityWatchVS](https://github.com/LaggAt/ActivityWatchVS) - Visual Studio extension by @LaggAt
+- [aw-idea](https://github.com/pascalwhoop/aw-idea) - JetBrains IDE extension by @pascalwhoop (WIP)
+- [aw-watcher-sublime](https://github.com/kostasdizas/aw-watcher-sublime) - Sublime Text 3 by @kostasdizas
+- [aw-watcher-atom](https://github.com/NicoWeio/aw-watcher-atom) - Atom by @NicoWeio
+- [AwWatcherNetBeans82](https://github.com/pytlus93/AwWatcherNetBeans82) - NetBeans 8.2 by @pytlus93
+- [aw-watcher-obsidian](https://github.com/LordGrimmauld/aw-watcher-obsidian) - Obsidian.md extension by @LordGrimmauld
+
+## Media Watchers :musical_note:
+
+- [aw-watcher-spotify](https://github.com/ActivityWatch/aw-watcher-spotify) - Tracks currently playing Spotify tracks (Beta)
+- [aw-watcher-chromecast](https://github.com/ActivityWatch/aw-watcher-chromecast) - For Chromecast devices (WIP)
+- [aw-watcher-openvr](https://github.com/ActivityWatch/aw-watcher-openvr) - For VR applications (WIP)
+- [aw-watcher-mpv-sender](https://github.com/RundownRhino/aw-watcher-mpv-sender) - Tracks currently playing mpv videos (WIP)
+- [aw-watcher-media-player](https://github.com/2e3s/aw-watcher-media-player) - Tracks system-wide media playback
+- [aw-watcher-lastfm](https://github.com/brayo-pip/aw-watcher-lastfm) - Tracks Last.fm scrobbles (supports most streaming services)
+
+## Other Watchers :gear:
+
+- [aw-watcher-input](https://github.com/ActivityWatch/aw-watcher-input) - Tracks keyboard/mouse usage statistics
+- [aw-watcher-table](https://github.com/Alwinator/aw-watcher-table) - Monitors height-adjustable desk position by @Alwinator
+- [aw-watcher-tmux](https://github.com/akohlbecker/aw-watcher-tmux) - Monitors tmux sessions by @akohlbecker
+- [aw-watcher-ask](https://github.com/bcbernardo/aw-watcher-ask) - Periodically asks user questions (WIP)
+- [aw-watcher-utilization](https://github.com/Alwinator/aw-watcher-utilization) - System resource monitoring by @Alwinator
+- [aw-watcher-anki](https://github.com/abdnh/aw-watcher-anki) - Tracks Anki flashcard review time
+- [aw-watcher-steam](https://github.com/Edwardsoen/aw-watcher-steam) - Tracks Steam gaming sessions
+- [aw-watcher-toggl](https://github.com/RTnhN/aw-watcher-toggl) - Imports time entries from Toggl
+- [aw-watcher-netstatus](https://github.com/sameersismail/aw-watcher-netstatus) - Network connectivity monitoring by @sameersismail
+- [aw-watcher-buttons](https://github.com/RTnhN/aw-watcher-buttons) - Arduino-based hardware button tracking (WIP)
+
+We also maintain a list of [watchers in the documentation](https://docs.activitywatch.net/en/latest/watchers.html).
+
+Want to create your own watcher? Check out the [writing watchers guide](https://docs.activitywatch.net/en/latest/examples/writing-watchers.html) in the documentation.
+
+Have you written a watcher? Submit a PR to have it included here!
 
 # Sync
 
