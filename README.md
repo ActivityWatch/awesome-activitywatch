@@ -72,6 +72,7 @@ ActivityWatch comes with two watchers enabled by default:
 - [aw-watcher-window](https://github.com/ActivityWatch/aw-watcher-window) - The official window watcher for Windows, macOS, and Linux (X11)
 - [aw-watcher-window-wayland](https://github.com/ActivityWatch/aw-watcher-window-wayland) - Window watcher for Wayland by @johan-bjareholt
 - [awatcher](https://github.com/2e3s/awatcher) - A compiled watcher for X11 and Wayland by @2e3s
+- [aw-watcher-enhanced](https://github.com/kepptic/aw-watcher-enhanced) - Enhanced window watcher with OCR screen capture, LLM-powered context extraction (via Ollama), smart idle detection, and remote desktop support by @kepptic
 
 ## Browser Watchers :globe_with_meridians:
 
