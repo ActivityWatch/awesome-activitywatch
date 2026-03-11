@@ -120,6 +120,17 @@ Want to create your own watcher? Check out the [writing watchers guide](https://
 
 Have you written a watcher? Submit a PR to have it included here!
 
+# Importers :inbox_tray:
+
+Tools for migrating historical time tracking data from other tools into ActivityWatch:
+
+- [aw-import-toggl](https://github.com/TimeToBuildBob/aw-import-toggl) - Import Toggl Track time entries from CSV export into ActivityWatch
+- [aw-import-rescuetime](https://github.com/TimeToBuildBob/aw-import-rescuetime) - Import RescueTime activity data from CSV export into ActivityWatch
+- [aw-import-manictime](https://github.com/TimeToBuildBob/aw-import-manictime) - Import ManicTime data directly from its SQLite database into ActivityWatch
+- [aw-import-clockify](https://github.com/TimeToBuildBob/aw-import-clockify) - Import Clockify time entries via API into ActivityWatch
+- [aw-import-harvest](https://github.com/TimeToBuildBob/aw-import-harvest) - Import Harvest time entries via API into ActivityWatch
+- [aw-import-screentime](https://github.com/ActivityWatch/aw-import-screentime) - Import macOS Screen Time data into ActivityWatch (official)
+
 # Sync
 
  - [aw-sync](https://github.com/ActivityWatch/aw-server-rust/tree/master/aw-sync), the official sync-with-folder/bring-your-own-sync solution for ActivityWatch
