@@ -115,6 +115,7 @@ ActivityWatch comes with two watchers enabled by default:
 - [aw-watcher-buttons](https://github.com/RTnhN/aw-watcher-buttons) - Arduino-based hardware button tracking (WIP)
 - [aw-watcher-screenshot](https://github.com/InertialG/aw-watcher-screenshot) - Periodic screenshot capture with perceptual hash filtering and optional S3 upload
 - [aw-watcher-claude](https://github.com/CoKeFish/aw-watcher-claude) - Tracks active Claude Code sessions per project (reads only session metadata, never prompts) by @CoKeFish
+- [aw-watcher-win-vdesktop](https://github.com/petrroll/aw-watcher-win-vdesktop) - Periodic tracker of currently used virtual desktop's name on Windows 10/11.
 
 We also maintain a list of [watchers in the documentation](https://docs.activitywatch.net/en/latest/watchers.html).
 
