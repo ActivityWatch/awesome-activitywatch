@@ -113,6 +113,7 @@ ActivityWatch comes with two watchers enabled by default:
 - [aw-watcher-netstatus](https://github.com/sameersismail/aw-watcher-netstatus) - Network connectivity monitoring by @sameersismail
 - [aw-watcher-buttons](https://github.com/RTnhN/aw-watcher-buttons) - Arduino-based hardware button tracking (WIP)
 - [aw-watcher-screenshot](https://github.com/InertialG/aw-watcher-screenshot) - Periodic screenshot capture with perceptual hash filtering and optional S3 upload
+- [aw-watcher-ms-presence](https://github.com/petrroll/aw-watcher-ms-presence) - Tracker of current Microsoft 365 presence as reported by local Microsoft Teams application.
 
 We also maintain a list of [watchers in the documentation](https://docs.activitywatch.net/en/latest/watchers.html).
 
