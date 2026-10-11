@@ -81,7 +81,7 @@ ActivityWatch comes with two watchers enabled by default:
 ## Editor Watchers :pencil2:
 
 - [aw-watcher-vim](https://github.com/ActivityWatch/aw-watcher-vim) - Vim extension by @johan-bjareholt and @ahnlabb
-- [aw-watcher-vscode](https://github.com/ActivityWatch/aw-watcher-vscode) - Visual Studio Code extension by @Otto-AA
+- [aw-watcher-vscode](https://github.com/ComfyChloe/aw-watcher-vscode) - Visual Studio Code extension by @Otto-AA ([maintained fork](https://github.com/ComfyChloe/aw-watcher-vscode/releases), upstream unmaintained since 2023)
 - [activity-watch-mode](https://github.com/pauldub/activity-watch-mode) - Emacs mode by @pauldub
 - [aw-watcher-jetbrains](https://github.com/OlivierMary/aw-watcher-jetbrains) - For all JetBrains IDEs by @OlivierMary ([JetBrains Marketplace](https://plugins.jetbrains.com/plugin/11361-activity-watcher))
 - [ActivityWatchVS](https://github.com/LaggAt/ActivityWatchVS) - Visual Studio extension by @LaggAt
