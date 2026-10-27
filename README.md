@@ -117,6 +117,7 @@ ActivityWatch comes with two watchers enabled by default:
 - [aw-watcher-claude](https://github.com/CoKeFish/aw-watcher-claude) - Tracks active Claude Code sessions per project (reads only session metadata, never prompts) by @CoKeFish
 - [aw-watcher-win-vdesktop](https://github.com/petrroll/aw-watcher-win-vdesktop) - Periodic tracker of currently used virtual desktop's name on Windows 10/11.
 - [aw-watcher-ms-presence](https://github.com/petrroll/aw-watcher-ms-presence) - Tracker of current Microsoft 365 presence as reported by local Microsoft Teams application.
+- [aw-workspace-watcher-win](https://github.com/masawik/aw-workspace-watcher-win) - Tracks Windows virtual desktops with work/personal contexts and an AFK-aware dashboard by @masawik
 
 We also maintain a list of [watchers in the documentation](https://docs.activitywatch.net/en/latest/watchers.html).
 
