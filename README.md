@@ -90,6 +90,7 @@ ActivityWatch comes with two watchers enabled by default:
 - [aw-watcher-atom](https://github.com/NicoWeio/aw-watcher-atom) - Atom by @NicoWeio
 - [AwWatcherNetBeans82](https://github.com/pytlus93/AwWatcherNetBeans82) - NetBeans 8.2 by @pytlus93
 - [aw-watcher-obsidian](https://github.com/LordGrimmauld/aw-watcher-obsidian) - Obsidian.md extension by @LordGrimmauld
+- [aw-watcher-zed](https://github.com/sachk/aw-watcher-zed) - Zed extension by @sachk
 
 ## Media Watchers :musical_note:
 
