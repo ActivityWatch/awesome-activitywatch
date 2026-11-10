@@ -33,6 +33,7 @@ The main ActivityWatch application and alternative implementations:
 - [Workflow](https://flathub.org/apps/com.gitlab.cunidev.Workflow), basic screentime application using GTK
 - [Codewatch](https://github.com/jca41/codewatch), desktop client for ActivityWatch focused on software development and productivity.
 - [yet-another-UI-for-AW](https://github.com/K-Kuyama/yet-another-UI-for-AW/), a native UI for ActivityWatch with Japanese localization ([announcement forum post](https://forum.activitywatch.net/t/another-gui-client-for-aw/2748))
+- [timetrace](https://github.com/vvyssen/timetrace), a macOS dashboard that merges ActivityWatch window data with iPhone/iPad Screen Time (via aw-import-screentime), sorts time by project and value, and exposes it to AI agents through a CLI and MCP server
 
 # Documentation :books:
 
